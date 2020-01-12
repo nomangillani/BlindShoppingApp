@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">BlindShoppingApp</string>
+    <string name="title_activity_content_home">content_home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="cart">cart</string>
+    <string name="category">category</string>
+    <string name="orders">orders</string>
+    <string name="setting">setting</string>
+    <string name="logout">logout</string>
+    <string name="product_discription2">Product Discription</string>
+    <string name="product_name2">Product Name</string>
+    <string name="Proprice">Product price</string>
+    <string name="add_to_cart2">Add to Cart</string>
+    <string name="todo2">TODO</string>
+    <string name="product_price">product_price</string>
+    <string name="product_name_cart">product Name</string>
+    <string name="product_quantitty">product Quantitty</string>
+    <string name="product_price_cart">product Price</string>
+    <string name="product_name4">Product Name</string>
+    <string name="product_name3">Product Name</string>
+    <string name="product_discription">Product Discription</string>
+    <string name="add_to_cart3">Add to Cart</string>
+    <string name="todo3">TODO</string>
+    <string name="product_name1">product name</string>
+    <string name="product_discription1">product Discription</string>
+    <string name="product_price1">Product Price</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="todo">TODO</string>
+    <string name="total_price">Total price =</string>
+    <string name="confirm">Confirm</string>
+</resources>

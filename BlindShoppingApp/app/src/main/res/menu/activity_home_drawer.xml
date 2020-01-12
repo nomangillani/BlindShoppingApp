@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/ic_menu_camera"
+
+            android:title="@string/cart"
+            android:iconTint="@color/colorPrimaryDark" tools:targetApi="o"/>
+        <item
+            android:id="@+id/nav_Category"
+            android:icon="@drawable/category"
+            android:title="@string/category"
+            android:iconTint="@color/colorPrimaryDark" tools:targetApi="o"/>
+        <item
+            android:id="@+id/nav_Search"
+            android:icon="@drawable/orders"
+            android:title="Search"
+            android:iconTint="@color/colorPrimaryDark" tools:targetApi="o"/>
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/setting"
+            android:title="@string/setting"
+            android:iconTint="@color/colorPrimaryDark" tools:targetApi="o"/>
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/setting"
+            android:title="@string/logout"
+            android:iconTint="@color/colorPrimaryDark" tools:targetApi="o"/>
+    </group>
+
+
+
+</menu>

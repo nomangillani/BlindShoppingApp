@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "900078324346",
+    "firebase_url": "https://blindshoppingapp.firebaseio.com",
+    "project_id": "blindshoppingapp",
+    "storage_bucket": "blindshoppingapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900078324346:android:8820c4f7b54f04e0",
+        "android_client_info": {
+          "package_name": "com.example.junaidtanoli.blindshoppingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900078324346-ll751qktvftr7m5v2shqk68u52qebugn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjN9YtUB9Ly4FDSCyQWqX4hyccdoBhRqs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "900078324346-ll751qktvftr7m5v2shqk68u52qebugn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/welcome"
+    tools:context=".ConfirmFinalOrder">
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Confirm your Shipment detail"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="23dp"
+
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/shipmentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="20dp"
+        android:hint="your Name"
+        android:textColorHint="@color/colorWhite"/>
+    <EditText
+        android:id="@+id/yourHomeAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shipmentName"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="your Email Address"
+        android:textColorHint="@color/colorWhite"/>
+    <EditText
+        android:id="@+id/ShipmentPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yourHomeAddress"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="your Phone"
+        android:textColorHint="@color/colorWhite"/>
+    <EditText
+        android:id="@+id/yourCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ShipmentPhone"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="your City"
+        android:textColorHint="@color/colorWhite"/>
+    <Button
+        android:id="@+id/confirmfinalOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:text="Confirm"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/buttons"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
